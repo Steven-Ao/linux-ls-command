@@ -1,0 +1,34 @@
+./UnixLs
+Makefile
+myfile.txt
+UnixLs
+UnixLs.c
+
+./UnixLs -i -l
+40250921670947731 -rwxrwxrwx 1 steven steven 68 Apr 09 2024 22:38 Makefile
+69805794224288634 -rwxrwxrwx 1 steven steven 0 Apr 13 2024 18:18 myfile.txt
+151152062493622602 -rwxrwxrwx 1 steven steven 16760 Apr 10 2024 01:08 UnixLs
+5066549582441929 -rwxrwxrwx 1 steven steven 4271 Apr 13 2024 18:16 UnixLs.c
+
+./UnixLs -li
+40250921670947731 -rwxrwxrwx 1 steven steven 68 Apr 09 2024 22:38 Makefile
+69805794224288634 -rwxrwxrwx 1 steven steven 304 Apr 13 2024 18:18 myfile.txt
+151152062493622602 -rwxrwxrwx 1 steven steven 16760 Apr 10 2024 01:08 UnixLs
+5066549582441929 -rwxrwxrwx 1 steven steven 4271 Apr 13 2024 18:16 UnixLs.c
+
+./UnixLs -l UnixLs.c
+-rwxrwxrwx 1 steven steven 4271 Apr 13 2024 18:16 UnixLs.c
+
+./UnixLs -iiiiii Makefile
+40250921670947731 -rwxrwxrwx 1 steven steven 68 Apr 09 2024 22:38 Makefile
+
+./UnixLs ./
+Makefile
+sample_outputs.txt
+UnixLs
+UnixLs.c
+
+./UnixLs ../
+assignment4_24-1.pdf
+cmpt300a4
+infodemo.c
